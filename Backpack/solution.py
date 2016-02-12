@@ -5,6 +5,7 @@ class Solution:
     # backpack problem, need to consider the sum < target case and the target already reached case
     def backPack(self, m, A):
         # write your code here
+        
         # dp[i][j] is if we could use i stones to fill backpack j 
         total = 0
         for i in xrange(len(A)):
